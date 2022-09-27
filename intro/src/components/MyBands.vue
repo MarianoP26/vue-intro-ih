@@ -28,7 +28,7 @@ const isShow = ref(false);
 const redText = ref('red-text');
 const listItem = ref('listItem');
 
-function alertText () {
+const alertText = () => {
   alert('amen');
 }
 
