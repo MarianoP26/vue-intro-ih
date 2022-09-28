@@ -78,6 +78,11 @@ const isShow2 = ref(false);
 const isShow3 = ref(false);
 const isShow4 = ref(false);
 
+
+const stringLabf = () => {
+  return 'test';
+}
+
 </script>
 
 <template>
@@ -119,6 +124,10 @@ const isShow4 = ref(false);
         </ul>
       </div>
     </div>
+    <!-- <div class="lab">
+      <h1>{{stringLabf()}}</h1>
+      <h1>{{2+2}}</h1>
+    </div> -->
   </div>
 </template>
 
